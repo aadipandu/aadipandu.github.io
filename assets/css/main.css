@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #007bff;
+    color: white;
+}
+
+#about h2, #portfolio h2, #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+#portfolio img {
+    transition: transform 0.3s;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+}
